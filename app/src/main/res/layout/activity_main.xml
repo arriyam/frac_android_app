@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fraction Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#E8DDE8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        android:textAllCaps="false"
+        android:textColor="#E8DDE8"
+        android:background="@drawable/custom_button_rectangle"
+        />
+
+    <Button
+        android:id="@+id/btnMathTutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math Tutor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        android:textColor="#E8DDE8"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_rectangle"/>
+
+    <Button
+        android:id="@+id/btnAboutGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.60"
+        android:textColor="#E8DDE8"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_rectangle"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

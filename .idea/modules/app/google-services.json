@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18939630472",
+    "firebase_url": "https://frac-16e2a.firebaseio.com",
+    "project_id": "frac-16e2a",
+    "storage_bucket": "frac-16e2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18939630472:android:de9b26d2c40bc94908603d",
+        "android_client_info": {
+          "package_name": "com.arriyam.frac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18939630472-g45aa0n9log4tkgq0ec1gg9sutq6ltj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arriyam.frac",
+            "certificate_hash": "50be51d7e7ff1a6a04640aff14b8167f1e23945a"
+          }
+        },
+        {
+          "client_id": "18939630472-5nhcp4nnej4i6a702udt9iiuqblderqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZT4DyCnnw6GznRlPvDmDdi-IrvkOe88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18939630472-5nhcp4nnej4i6a702udt9iiuqblderqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
